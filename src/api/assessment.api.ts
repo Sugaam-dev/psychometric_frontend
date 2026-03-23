@@ -35,7 +35,7 @@ export const submitAnswer = async (payload: {
 
 export const downloadReport = (sessionId: number) => {
   window.open(
-    `http://127.0.0.1:8000/reports/${sessionId}/pdf`,
+    `https://psy.sugaam.in/reports/${sessionId}/pdf`,
     "_blank"
   );
 };

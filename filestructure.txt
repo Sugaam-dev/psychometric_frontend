@@ -1,0 +1,44 @@
+|-- .gitignore
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.js
+|-- public
+    |-- logo.jpg
+    |-- vite.svg
+|-- src
+    |-- api
+        |-- assessment.api.ts
+        |-- axios.ts
+    |-- App.tsx
+    |-- components
+        |-- assessment
+            |-- LikertScale.tsx
+            |-- ProgressBar.tsx
+            |-- QuestionCard.tsx
+        |-- common
+            |-- Button.tsx
+            |-- Loader.tsx
+        |-- layout
+            |-- Container.tsx
+            |-- Footer.tsx
+            |-- Header.tsx
+            |-- Navbar.tsx
+    |-- context
+        |-- UserContext.tsx
+    |-- hooks
+        |-- useAssessment.ts
+    |-- main.tsx
+    |-- pages
+        |-- Assessment.tsx
+        |-- Completion.tsx
+        |-- Dashboard.tsx
+        |-- Instructions.tsx
+        |-- Register.tsx
+        |-- StartAssessment.tsx
+    |-- routes
+        |-- AppRoutes.tsx
+    |-- style.css
+    |-- typescript.svg
+|-- tailwind.config.js
+|-- tsconfig.json
